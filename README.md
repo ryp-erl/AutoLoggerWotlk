@@ -18,6 +18,10 @@ Automatically start combat logging when entering a Wotlk raid:
 - Icecrown Citadel
 - The Ruby Sanctum
 
+## Other addons
+
+- [Raiduku](https://www.curseforge.com/wow/addons/raiduku/): Minimalist World of Warcraft addon to help raid leaders managing loots in Wrath of Lich King Classic.
+
 ## License
 
 [GNU GPLv3](LICENSE)
