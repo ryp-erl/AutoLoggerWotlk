@@ -2,6 +2,7 @@
 
 ![version](https://img.shields.io/github/v/release/En-Roue-Libre/AutoLoggerWotlk)
 [![issues](https://img.shields.io/badge/report-issues-blueviolet)](https://github.com/En-Roue-Libre/AutoLoggerWotlk/issues)
+[![curseforge](https://img.shields.io/badge/visit%20on-curseforge-orange)](https://www.curseforge.com/wow/addons/autologgerwotlk)
 
 # AutoLoggerWotlk
 
