@@ -1,7 +1,8 @@
-AutoLoggerWotlk = AutoLoggerWotlk or LibStub("AceAddon-3.0"):NewAddon("AutoLoggerWotlk", "AceConsole-3.0", "AceEvent-3.0")
+AutoLoggerWotlk = AutoLoggerWotlk or
+    LibStub("AceAddon-3.0"):NewAddon("AutoLoggerWotlk", "AceConsole-3.0", "AceEvent-3.0")
 
 AutoLoggerWotlk.name = "AutoLoggerWotlk"
-AutoLoggerWotlk.version = "1.0.0"
+AutoLoggerWotlk.version = "1.0.1"
 
 AutoLoggerWotlk.raids = {
     -- Naxxramas
