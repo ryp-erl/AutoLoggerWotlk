@@ -54,10 +54,14 @@ end
 function AutoLoggerWotlk:CheckInstanceAndLog()
     local name, _, _, _, _, _, _, instanceID, instanceGroupSize, _ = GetInstanceInfo()
     if AutoLoggerWotlk.raids[tonumber(instanceID)] then
-        LoggingCombat(true)
-        self:Print("Combat logging |cff33ff00activated|r for " .. name .. " (" .. instanceGroupSize .. ").")
+        if not LoggingCombat() then
+            LoggingCombat(true)
+            self:Print("Combat logging |cff33ff00activated|r for " .. name .. " (" .. instanceGroupSize .. ").")
+        end
     else
-        self:Print("Combat logging |cffff0000deactivated|r (not in a WotLK raid).")
-        LoggingCombat(false)
+        if LoggingCombat() then
+            self:Print("Combat logging |cffff0000deactivated|r (not in a WotLK raid).")
+            LoggingCombat(false)
+        end
     end
 end
