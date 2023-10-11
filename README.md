@@ -1,7 +1,7 @@
 <img src="https://github.com/ryp-erl/assets/blob/main/AutoLoggerWotlk/autologgerwotlk_logo.jpg?raw=true" width=50 align="right" />
 
-![version](https://img.shields.io/github/v/release/En-Roue-Libre/AutoLoggerWotlk)
-[![issues](https://img.shields.io/badge/report-issues-blueviolet)](https://github.com/En-Roue-Libre/AutoLoggerWotlk/issues)
+![version](https://img.shields.io/github/v/release/ryp-erl/AutoLoggerWotlk)
+[![issues](https://img.shields.io/badge/report-issues-blueviolet)](https://github.com/ryp-erl/AutoLoggerWotlk/issues)
 [![curseforge](https://img.shields.io/badge/visit%20on-curseforge-orange)](https://www.curseforge.com/wow/addons/autologgerwotlk)
 
 # AutoLoggerWotlk
